@@ -1,0 +1,3287 @@
+/*
+Theme Name: Inverno 2013
+Description: Based on Film Reel theme by Theme Lab.
+Version: 1.0
+Author: MG Studio
+Author URI: http://mgstudio.com.br/
+*/
+
+
+
+
+
+
+
+/* Fonts and Colors */
+
+
+
+body {
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+
+	font-size: 11pt;
+
+	text-align: center;
+
+	
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background-color: #160b05;
+
+	background-image:url(images/fundo.jpg); 
+
+	/*background-repeat:no-repeat;*/
+
+}
+
+
+
+#page {
+
+	text-align: left;
+
+	}
+
+
+
+#content {
+
+
+
+	font-size: 10pt;
+
+
+
+	}
+
+
+
+
+
+
+
+.alt {
+
+
+
+	}
+
+
+
+
+
+
+
+#footer {
+
+
+
+	background-image:url(images/nada.gif);
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+small {
+
+
+
+	font-family: Arial, Helvetica, Sans-Serif;
+
+
+
+	font-size: 8pt;
+
+
+
+	text-align:right;
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.footertextfont {
+
+
+
+	text-align:center;
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	font-size:8pt;
+
+
+
+}
+
+
+
+
+
+
+
+.entry p a:visited {
+
+
+
+	color: #b85b5a;
+
+
+
+	}
+
+.facebook {
+
+	width:36px;
+
+	height:42px;
+
+	float:right;
+
+	margin-top:48px;
+
+	margin-right:3px;
+
+	display:block;
+
+
+
+	}
+
+.twitter {
+
+	width:36px;
+
+	height:42px;
+
+	float:right;
+
+	margin-top:48px;
+
+	margin-right:3px;
+
+	display:block;
+
+
+
+	}
+
+
+
+.clear{clear:both;margin-bottom:10px;}
+
+
+
+.youtube {
+
+	width:36px;
+
+	height:42px;
+
+	float:right;
+
+	margin-top:48px;
+
+	margin-right:10px;
+
+	display:block;
+
+margin-right:10px;
+
+
+
+	}
+
+
+
+
+
+.commentlist li, #commentform input, #commentform textarea {
+
+
+
+	font-family: Arial, Helvetica, sans-serif;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentlist li {
+
+
+
+	font-weight: bold;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentlist cite, .commentlist cite a {
+
+
+
+	font-weight: bold;
+
+
+
+	font-style: normal;
+
+
+
+	font-size: 10pt;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentlist p {
+
+
+
+	font-weight: normal;
+
+
+
+	font-family: Arial,Verdana, Helvetica, sans-serif;
+
+
+
+	font-size:10pt;
+
+
+
+	color:#57221e;
+
+
+
+	}
+
+
+
+#commentform p {
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentmetadata {
+
+
+
+	font-weight: normal;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar {
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 10pt;
+
+color:#fff;
+
+	}
+
+
+
+#leftsidebar a{
+
+
+
+color:#fff;
+
+	}
+
+
+
+small, #leftsidebar ul ul li, #leftsidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+
+
+
+
+
+
+
+	padding-top:0px;
+
+
+
+	}
+
+
+
+
+
+
+
+code {
+
+
+
+	font-family:"Courier New", Courier, monospace;
+
+
+
+	font-size:9pt;
+
+
+
+	}
+
+
+
+
+
+
+
+acronym, abbr, span.caps
+
+
+
+{
+
+
+
+	font-size: 0.9em;
+
+
+
+	letter-spacing: .07em;
+
+
+
+	}
+
+
+
+
+
+
+
+a, h2 a:hover, h3 a:hover {
+
+
+
+	color:#707070;
+
+
+
+	text-decoration: none;
+
+
+
+	}
+
+
+
+
+
+
+
+a:hover {
+
+
+
+	color: #57221e;
+
+
+
+	text-decoration: underline;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar a, #leftsidebar h2 a:hover, #leftsidebar h3 a:hover {
+
+
+
+	color:#fff;
+
+
+
+	text-decoration: none;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar a:hover {
+
+
+
+	color: #ccc;
+
+
+
+	text-decoration: underline;
+
+
+
+	}
+
+
+
+/* End Fonts and Colors */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+
+
+#header {
+
+
+
+	margin-left: 35px;
+
+
+
+	height: 435px;
+
+
+
+	width: 990px;
+
+
+
+	background-image:url(images/header.png);
+
+	background-repeat:no-repeat;
+
+
+
+	}
+
+
+
+/* End Header */
+
+
+
+
+
+
+
+/* Headings */
+
+
+
+h1 {
+
+
+
+	padding-top:40px;
+
+
+
+	margin: 0;
+
+
+
+color:#878787;
+
+
+
+	}
+
+
+
+
+
+
+
+.description {
+
+
+
+	padding-top:5px;
+
+
+
+	color:#520000;
+
+
+
+	}
+
+
+
+.data{
+
+
+
+        float:right;
+
+
+
+        height:31px;
+
+
+
+      
+
+
+
+
+
+padding-top:6px;
+
+
+
+             
+
+
+
+	font-weight: normal;
+
+
+
+	font-family: Arial,Verdana, Helvetica, sans-serif;
+
+
+
+	font-size:12pt;
+
+
+
+	color:#939393;
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.titulo{
+
+color:#404040;
+
+
+
+
+
+
+
+
+
+margin-left:15px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+
+
+
+       
+
+
+
+        margin-left:-14px;
+
+
+
+	}
+
+
+
+
+
+
+
+h2.pagetitle {
+
+color:#404040;
+
+	margin-top:0px;
+
+
+
+        margin-left:40px;
+
+
+
+	text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+#sidebar h2 {
+
+
+
+	margin-left:10px;
+
+
+
+	margin-right:5px;
+
+
+
+	padding-top:0px;
+
+
+
+	padding-bottom:0px;
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+#arquivos{
+
+
+
+
+
+
+
+margin-top:50px;
+
+
+
+}
+
+
+
+
+
+
+
+#titulocom {
+
+
+
+position:relative;
+
+
+
+left:10px;
+
+
+
+bottom:32px;
+
+color:#878787;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#facebook {
+
+
+
+
+
+
+
+text-align:right;
+
+
+
+position:relative;
+
+
+
+left:-60px;
+
+
+
+top:-38px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+
+
+
+	padding: 0;
+
+
+
+	margin: 30px 0 0;
+
+
+
+	}
+
+
+
+
+
+
+
+h3.comments {
+
+
+
+	padding: 0;
+
+
+
+	margin: 40px auto 20px ;
+
+
+
+	}
+
+
+
+
+
+
+
+h1, h2, h3 {
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	font-weight: normal;
+
+
+
+	}
+
+
+
+
+
+
+
+h1 {
+
+
+
+	font-size: 18pt;
+
+
+
+	text-align: center;
+
+
+
+	}
+
+
+
+
+
+
+
+.description {
+
+
+
+	font-size: 14pt;
+
+
+
+	text-align: center;
+
+
+
+	}
+
+
+
+
+
+
+
+h2 {
+
+
+
+	font-size: 16pt;
+
+
+
+	margin-bottom:2px;
+
+
+
+	padding-bottom:3px;
+
+
+
+	color:#404040;
+
+
+
+	
+
+
+
+	}
+
+
+
+
+
+
+
+h2.pagetitle {
+
+
+
+	font-size: 14pt;
+
+
+
+	border-bottom:dotted 1px #707070;
+
+color:#404040;
+
+	}
+
+
+
+
+
+
+
+#leftsidebar h2 {
+
+        display:none;
+
+	font-size: 12pt;
+
+
+
+	color:#FFFFFF;
+
+
+
+	margin-top:0px;
+
+
+
+	padding-top:0px;
+
+
+
+	
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+h3 {
+
+
+
+	font-size: 14pt;
+
+
+
+	}
+
+
+
+
+
+
+
+h1, h1 a, h1 a:hover, h1 a:visited, .description {
+
+
+
+	text-decoration: none;
+
+
+
+	color: white;
+
+
+
+	}
+
+
+
+
+
+
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+
+
+
+	color:#404040;
+
+
+
+	}
+
+
+
+
+
+
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+
+
+
+	text-decoration: none;
+
+
+
+	}
+
+
+
+h2 a:hover {
+
+
+
+	color:#878787;
+
+
+
+}
+
+
+
+
+
+
+
+/* End Headings */
+
+
+
+
+
+
+
+/* Begin Structure */
+
+
+
+body {
+
+
+
+	margin: 0;
+
+
+
+	padding: 0;
+
+
+
+	}
+
+
+
+
+
+
+
+#page {
+
+
+
+	width: 980px;
+
+
+
+	margin-left:auto;
+
+
+
+	margin-right:auto;
+
+
+
+	background-image:url(images/page.jpg);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#contentarea {
+
+
+
+	width: 700px;
+
+	padding-top:20px;
+
+	float:right;
+
+        padding-top:15px;
+
+	padding-left:59px;
+
+        padding-right:0;	
+
+	background-color: #ffffff;
+
+        -webkit-border-radius: 15px;
+
+        -moz-border-radius: 15px;
+
+        border-radius: 15px;
+
+	}
+
+
+
+
+
+
+
+.post {
+
+     line-height:1.4em;
+
+	text-align: left;
+
+	width:650px;    
+
+
+
+	}
+
+
+
+.post img{
+
+margin-top:20px;
+
+margin-bottom:20px;
+
+}
+
+
+
+
+
+
+
+.footercom{
+
+
+
+       
+
+
+
+	background-image:url(images/bg_comment.jpg);
+
+
+
+	
+
+
+
+      
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.post2 {
+
+
+
+       
+
+
+
+	margin-left:15px;
+
+
+
+	
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.postmetadata {
+
+
+
+background-image:url(images/bg_comment.jpg);
+
+
+
+background-repeat:no-repeat;  
+
+
+
+height:35px;
+
+
+
+padding-left:20px;
+
+
+
+padding-top:8px;
+
+
+
+
+
+
+
+font-family:Arial, Helvetica, sans-serif;
+
+
+
+font-size:10pt;
+
+
+
+color:#57221e;
+
+
+
+font-weight:bold;
+
+
+
+font-color:#57221e;
+
+
+
+
+
+
+
+	
+
+
+
+	}
+
+
+
+
+
+
+
+.contentarea .postmetadata {
+
+
+
+
+
+
+
+	margin: 30px 0;
+
+
+
+	}
+
+
+
+
+
+
+
+#footer {
+
+
+
+	width:840px;
+
+
+
+	clear:both;
+
+
+
+	text-align:center;
+
+
+
+	padding-bottom:0px;
+
+
+
+	background-image:url(images/footer.jpg);
+
+
+
+	background-repeat:no-repeat;
+
+
+
+	padding-left:140px;
+
+
+
+}
+
+
+
+
+
+
+
+#footertext {
+
+
+
+	padding-top:18px;
+
+
+
+	padding-bottom:18px;
+
+
+
+	font-family:Arial;
+
+
+
+	font-size:8pt;
+
+
+
+	color:#FFFFFF;
+
+
+
+}
+
+
+
+
+
+
+
+#leftsidebar {
+
+
+
+	width: 150px;
+
+
+
+	padding-left:15px;
+
+
+
+	padding-right:5px;
+
+
+
+	padding-top:5px;
+
+
+
+	padding-bottom:0px;
+
+
+
+
+
+
+
+	float:right;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.postdetails {
+
+
+
+	padding-top:5px;
+
+
+
+}
+
+
+
+.socialbookmarking {
+
+
+
+	padding: 5px 5px 5px 5px;
+
+
+
+	background-image:url(images/footer.jpg);
+
+
+
+	text-align:center;
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+	font-size:8pt;
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+.postdetailsbottom {
+
+
+
+background-image:url(images/bg_comment.jpg);
+
+
+
+background-repeat:no-repeat;  
+
+
+
+height:34px;
+
+
+
+	
+
+
+
+	padding-top:9px;
+
+
+
+	padding-bottom:7px;
+
+
+
+padding-left:10px;
+
+
+
+}
+
+
+
+
+
+
+
+/* End Structure */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Calendar */
+
+
+
+#wp-calendar {
+
+
+
+padding-top: 1px;
+
+
+
+	empty-cells: hide;
+
+
+
+	margin: 0px auto 0;
+
+
+
+	width: 200px;
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar #next a {
+
+
+
+	padding-right: 10px;
+
+
+
+	text-align: right;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar #prev a {
+
+
+
+	padding-left: 10px;
+
+
+
+	text-align: left;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar a {
+
+
+
+
+
+
+
+	display: block;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar caption {
+
+
+
+	text-align: left;
+
+
+
+color:#fff;
+
+
+
+	width: 100%;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar td {
+
+
+
+	padding: 2px 0;
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+color:#F5F5F5;
+
+
+
+	font-size:8pt;
+
+
+
+	}
+
+
+
+
+
+
+
+#calendar_wrap {
+
+
+
+	margin-top:-15px;
+
+
+
+	}
+
+
+
+#wp-calendar #prev a {
+
+
+
+	font-size: 8pt;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar a {
+
+
+
+	text-decoration: bold;
+
+
+
+background-color: #a7a7a7;
+
+
+
+color:#FFFFFF;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar caption {
+
+
+
+
+
+	font: bold 10pt Arial, Helvetica, sans-serif;
+
+
+
+color:#fff;
+
+
+
+	text-align: center;
+
+
+
+	}
+
+
+
+
+
+
+
+#wp-calendar th {
+
+
+
+	font-size:8pt;
+
+
+
+	font-style: normal;
+
+
+
+color:#fff;
+
+
+
+	text-transform: capitalize;
+
+
+
+	}
+
+
+
+/* End Calendar */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Images */
+
+
+
+p img {
+
+
+
+	padding: 0;
+
+
+
+	max-width: 100%;
+
+
+
+	}
+
+
+
+
+
+
+
+img.centered {
+
+
+
+	display: block;
+
+
+
+	margin-left: auto;
+
+
+
+	margin-right: auto;
+
+
+
+	}
+
+
+
+
+
+
+
+img.alignright {
+
+
+
+	padding: 4px;
+
+
+
+	margin: 0 0 2px 7px;
+
+
+
+	display: inline;
+
+
+
+	}
+
+
+
+
+
+
+
+img.alignleft {
+
+
+
+	padding: 4px;
+
+
+
+	margin: 0 7px 2px 0;
+
+
+
+	display: inline;
+
+
+
+	}
+
+
+
+
+
+
+
+.alignright {
+
+
+
+	float: right;
+
+
+
+	margin-right:30px;
+
+
+
+	}
+
+
+
+
+
+
+
+.alignleft {
+
+
+
+	float: left
+
+
+
+	}
+
+
+
+
+
+
+
+/* End Images */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Lists */
+
+
+
+
+
+
+
+html>body .entry ul {
+
+
+
+	margin-left: 0px;
+
+
+
+	padding: 0 0 0 30px;
+
+
+
+	list-style: none;
+
+
+
+	padding-left: 10px;
+
+
+
+	text-indent: -10px;
+
+
+
+	}
+
+
+
+
+
+
+
+html>body .entry li {
+
+
+
+	margin: 7px 0 8px 10px;
+
+
+
+	}
+
+
+
+
+
+
+
+ul {
+
+
+
+	list-style-image:none;
+
+
+
+}
+
+
+
+
+
+
+
+.entry ul li:before, #sidebar ul ul li:before {
+
+
+
+	content: "\00BB \0020";
+
+
+
+	}
+
+
+
+
+
+
+
+.entry ol {
+
+
+
+	padding: 0 0 0 35px;
+
+
+
+	margin: 0;
+
+
+
+	}
+
+
+
+
+
+
+
+.entry ol li {
+
+
+
+	margin: 0;
+
+
+
+	padding: 0;
+
+
+
+	}
+
+
+
+
+
+
+
+.postmetadata ul, .postmetadata li {
+
+
+
+	display: inline;
+
+
+
+	list-style-type: none;
+
+
+
+	list-style-image: none;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar ul, #leftsidebar ul ol {
+
+
+
+	margin: 0;
+
+
+
+	padding:0;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar ul li {
+
+
+
+	list-style-type:none;
+
+
+
+	list-style-image:none;
+
+
+
+	margin-bottom: 15px;
+
+
+
+	padding-left:0px;
+
+
+
+	margin-right:0px;
+
+
+
+	width:200px;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar ul p, #leftsidebar ul select {
+
+
+
+	margin: 5px 0 8px;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar ul ul, #leftsidebar ul ol {
+
+
+
+	margin: 5px 0 0 10px;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar ul ul ul, #leftsidebar ul ol {
+
+
+
+	margin: 0 0 0 10px;
+
+
+
+	}
+
+
+
+
+
+
+
+ol li, #leftsidebar ul ol li {
+
+
+
+	list-style: decimal outside;
+
+
+
+	}
+
+
+
+
+
+
+
+#leftsidebar ul ul li, #leftsidebar ul ol li {
+
+
+
+	margin: 3px 0 0;
+
+
+
+	padding: 0;
+
+
+
+	}
+
+
+
+/* End Entry Lists */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Forms */
+
+
+
+#searchform {
+
+
+
+	padding-left:20px;
+
+
+
+	padding-top:15px;
+
+
+
+	text-align: left;
+
+
+
+	width:200px;
+
+
+
+	}
+
+
+
+
+
+
+
+#searchform #s {
+
+
+
+	border:solid 1px;
+
+
+
+    border-color:#ccc;
+
+
+
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+
+
+    font-size:9pt;
+
+
+
+    background-color:#fff;
+
+
+
+    color:#666666;
+
+
+
+    width: 160px;
+
+
+
+    padding: 2px;
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+#searchsubmit {
+
+
+
+    border: none;
+
+
+
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+
+
+    font-size:8pt;
+
+
+
+    background-image:url(images/search.png);
+
+
+
+    background-color:transparent;
+
+
+
+    color:#666666;
+
+
+
+    width: 24px;
+
+
+
+    height: 24px;
+
+
+
+    padding: 0px;
+
+
+
+    cursor:pointer;
+
+
+
+	}
+
+
+
+
+
+
+
+#searchsubmit #s_on_search_page {
+
+
+
+	}
+
+
+
+
+
+
+
+#sidebar #searchform #s {
+
+
+
+    border:solid 1px;
+
+
+
+    border-color:#525050;
+
+
+
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+
+
+    font-size:8pt;
+
+
+
+    background-color:#231f1f;
+
+
+
+    color:#666666;
+
+
+
+    width: 160px;
+
+
+
+    padding: 2px;
+
+
+
+	}
+
+
+
+
+
+
+
+#sidebar #searchsubmit {
+
+
+
+    border: none;
+
+
+
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+
+
+
+    font-size:9pt;
+
+
+
+    background-image:url(images/search.png);
+
+
+
+    background-color:transparent;
+
+
+
+    color:#666666;
+
+
+
+    width: 24px;
+
+
+
+    height: 24px;
+
+
+
+    padding: 0px;
+
+
+
+    cursor:pointer;
+
+
+
+	}
+
+
+
+
+
+
+
+.entry form {
+
+
+
+	text-align:center;
+
+
+
+	}
+
+
+
+
+
+
+
+select {
+
+
+
+	width: 130px;
+
+
+
+	}
+
+
+
+
+
+
+
+#commentform input {
+
+
+
+	width: 150px;
+
+
+
+	padding: 2px;
+
+
+
+	margin: 5px 5px 1px 0;
+
+
+
+	}
+
+
+
+
+
+
+
+#commentform textarea {
+
+
+
+	width: 90%;
+
+
+
+	padding: 2px;
+
+
+
+	}
+
+
+
+
+
+
+
+#commentform #submit {
+
+
+
+	margin-right:56px;
+
+
+
+	float: right;
+
+
+
+	}
+
+
+
+/* End Forms */
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Comments*/
+
+
+
+.alt {
+
+
+
+	margin: 0;
+
+
+
+	padding: 10px;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentlist {
+
+
+
+	padding: 0;
+
+
+
+	text-align: justify;
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.commentlist li {
+
+
+
+	
+
+
+
+	list-style: none;
+
+
+
+	border-bottom:#707070 dotted 1px;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentlist p {
+
+
+
+	margin: 10px 5px 10px 0;
+
+
+
+	}
+
+
+
+
+
+
+
+#commentform p {
+
+
+
+	margin: 5px 0;
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nocomments {
+
+
+
+	text-align:center;
+
+
+
+	margin: 0;
+
+
+
+	padding: 0;
+
+
+
+	}
+
+
+
+
+
+
+
+.commentmetadata {
+
+
+
+	margin: 0;
+
+
+
+	display: block;
+
+
+
+	}
+
+
+
+/* End Comments */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Sidebar */
+
+
+
+
+
+
+
+#sidebar form {
+
+
+
+	margin: 0;
+
+
+
+	}
+
+
+
+.textwidget {
+
+
+
+	margin-left:20px;
+
+
+
+	margin-right:20px;
+
+
+
+}
+
+
+
+/* End Sidebar */
+
+
+
+
+
+
+
+
+
+
+
+/* Begin Miscellaneous */
+
+
+
+acronym, abbr, span.caps {
+
+
+
+	cursor: help;
+
+
+
+	}
+
+
+
+
+
+
+
+acronym, abbr {
+
+
+
+	border-bottom: 1px dashed #999;
+
+
+
+	}
+
+
+
+
+
+
+
+blockquote {
+
+
+
+	margin: 15px 30px 0 10px;
+
+
+
+	padding-left: 10px;
+
+
+
+	border-left: 3px solid #707070;
+
+
+
+	}
+
+
+
+
+
+
+
+blockquote cite {
+
+
+
+	margin: 5px 0 0;
+
+
+
+	display: block;
+
+
+
+	}
+
+
+
+
+
+
+
+.center {
+
+
+
+	text-align: center;
+
+
+
+	}
+
+
+
+
+
+
+
+hr {
+
+
+
+	display: none;
+
+
+
+	}
+
+
+
+
+
+
+
+a img {
+
+
+
+	border: none;
+
+
+
+	}
+
+
+
+
+
+
+
+.navigation {
+
+
+
+	display: block;
+
+
+
+	text-align: center;
+
+
+
+	margin-top: 10px;
+
+
+
+	margin-bottom: 60px;
+
+
+
+	}
+
+
+
+/* End Miscellaneous*/
+
+
+
+#arquivos{
+
+margin-left:30px;
+
+}
+
+
+
+.widget_archive{
+
+margin-left:30px;
+
+}
+
+
+
+#archives-3{
+
+margin-left:37px;
+
+}
+
+
+
+
+
+.novidade{
+
+	
+
+	font: normal normal 1.1em Arial, Helvetica, sans-serif;
+
+	/*letter-spacing:.03em;*/
+
+	color:#fff;
+
+	width: 667px;
+
+	}
+
+
+
+	
+
+
+
+#contact-form{
+
+	width:250px;
+
+	}
+
+	
+
+#contact-form input{
+
+	background: transparent url(images/input-bg.png) repeat-x;
+
+	width: 150px;
+
+	height: 20px;
+
+	border: 1px #ffffff solid;
+
+	margin: 0 5px 0 0;
+
+	padding: 0 5px;
+
+	color: #ffffff;
+
+	font-size: 12px;
+
+	font-family: Arial, sans-serif;
+
+	border-image: initial;
+
+	}
+
+
+
+#contact-form #radiobt{
+
+	width: 25px;
+
+	height: 20px;
+
+	border: none;
+
+	margin: 0 0 0 0;
+
+	float:left;
+
+}
+
+
+
+input[type="checkbox"] {
+
+	cursor: pointer;
+
+-webkit-appearance: checkbox;
+
+box-sizing: border-box;
+
+}
+
+
+
+
+
+#contact-form span{
+
+	float:left;
+
+	margin: 3px 5px 0 0;
+
+}
+
+	
+
+#contact-form #submit{
+
+	/*background: url(images/submit-button.png) no-repeat;*/
+
+	width: 45px;
+
+	height: 22px;
+
+	color: white;
+
+	font-size: 11px;
+
+	padding: 3px;
+
+	border: 1px #ffffff solid;
+
+	margin: 0.9px 0 0 5px;
+
+	cursor: pointer;
+
+	}
+
+	
+
+#contact-form #submit:hover{
+
+	/*background: url(images/submit-button.png) no-repeat;*/
+
+	width: 45px;
+
+	height: 22px;
+
+	color: white;
+
+	font-size: 11px;
+
+	padding: 3px;
+
+	border: 1px #fff solid;
+
+	margin: 0.9px 0 0 5px;
+
+	cursor: pointer;
+
+	}
+
+
+
+.radio{
+
+	margin: 13px 0 0 0;
+
+	float:left;
+
+	width:95px;
+
+	}
+
+
+
+.radio a{
+
+	font: normal normal 1.1em Arial, Helvetica, sans-serif;
+
+	color:#fff;
+
+	}

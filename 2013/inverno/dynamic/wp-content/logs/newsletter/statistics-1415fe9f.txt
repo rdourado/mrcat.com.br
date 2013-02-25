@@ -1,0 +1,14 @@
+01-03-2013 18:15:14 - ERROR - 17842288 - Table 'wordpress.mrcat_newsletter_stats' doesn't exist
+01-03-2013 18:15:14 - ERROR - 17842800 - Table 'wordpress.mrcat_newsletter_stats' doesn't exist
+01-03-2013 18:15:14 - ERROR - 17843360 - Table 'wordpress.mrcat_newsletter_stats' doesn't exist
+01-03-2013 18:15:15 - ERROR - 17843792 - Duplicate column name 'user_id'
+01-03-2013 18:15:16 - ERROR - 17893344 - Unknown column 'newsletter_id' in 'mrcat_newsletter_stats'
+01-03-2013 18:15:16 - ERROR - 17893864 - Unknown column 'newsletter_id' in 'mrcat_newsletter_stats'
+01-03-2013 18:15:16 - ERROR - 17894416 - Unknown column 'date' in 'mrcat_newsletter_stats'
+01-03-2013 18:15:16 - ERROR - 17894744 - Duplicate column name 'user_id'
+01-03-2013 18:15:16 - ERROR - 17895232 - Duplicate column name 'email_id'
+01-03-2013 18:15:16 - ERROR - 17895696 - Duplicate column name 'link_id'
+01-03-2013 18:15:16 - ERROR - 17896168 - Duplicate column name 'user_id'
+01-03-2013 18:15:16 - ERROR - 17896712 - Duplicate column name 'created'
+01-03-2013 18:15:16 - ERROR - 17897160 - Duplicate column name 'url'
+01-03-2013 18:15:16 - ERROR - 17897640 - Duplicate column name 'anchor'

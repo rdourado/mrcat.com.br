@@ -1,0 +1,3 @@
+01-03-2013 18:15:14 - ERROR - 17813080 - Can't DROP 'visibility'; check that column/key exists
+01-03-2013 18:15:16 - ERROR - 17892272 - Duplicate column name 'token'
+01-03-2013 18:15:16 - ERROR - 17892728 - Can't DROP 'visibility'; check that column/key exists
